@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav id="Home">
+    <a href="#Home">Home</a>
+    <a href="#About">About</a>
+    <a href="#Skill">Skill</a>
+    <a href="#Project">Project</a>
+    <a href="#Multimedio">Multimedia</a>
+    <a href="#FAQ">FAQ</a>
+    <a href="#Contact">Contact</a>
+    </nav>
+    <hr />
+    <br />
+    <h1>Welcome To My portfolio</h1>
+    <header>
+    <figure><img src="picture/Muhammad Sajid.jpeg" alt="Picture" style="width: 200px;" />
+    <figcaption>MY First HTML Portfolio Project</figcaption></figure>
+    </header>
+    <main>
+      <article id="About">
+       <h2>MY learning journey !</h2>
+        <p>I started learning web development in 2026. During my studies,
+        I learned HTML, CSS, and basic JavaScript. I also developed
+        problem-solving skills through programming in C++.</p>
+        <p> My goal is to become a professional software developer and build
+        useful applications that help people solve real-world problems.</p>
+      </article>
+    </main>
+    <ol id="Skill">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Java Script</li>
+      <li>C++</li>
+    </ol>
+    <ul>
+      <li>programing
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+            <li>C++</li>
+         </ul>
+       <li>
+        Soft Skill
+          <ul>
+            <li>communication</li>
+            <li>Teamwork</li>
+          </ul>
+       </li>
+      </ul>
+
+    </li>
+      
+    </ul>
+    <dl>Description list
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+      <dt>Java script</dt>
+      <dd>A programming language used to make web pages interactive and dynamic.</dd>
+      <dt>C++</dt>
+      <dd>A high-level programming language used for software development, game development, operating systems, and problem-solving.</dd>
+       <dt>Communication</dt>
+    <dd>The ability to share ideas and information clearly with others.</dd>
+
+    <dt>Teamwork</dt>
+    <dd>The ability to work effectively with others to achieve a common goal.</dd>
+    </dl>
+    <table id="Project" >
+      <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Project</th>
+        <th>Date</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+          <td>HTML</td>
+          <td>final project</td>
+          <td>12/06/2026</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>css</td>
+          <td>portfolio project</td>
+          <td>1/04/2026</td>
+        </tr>
+        </tbody>
+       <tfoot >
+        <td colspan="4">last project</td>
+       </tfoot>
+    </table>
+    
+    <section id="Multimedia">
+      <audio controls>
+        <source src="my.mp3">
+      </audio>
+
+      <video width="250" controls>
+        <source src="video.mp4">
+      </video>
+      <iframe width="300" height="200" controls src="https://youtube.com/shorts/z640MF6_K8M?si=Wf-uc6wv7s0G31zK"></iframe>
+      <iframe src="https://amjad-pro-stack-creations-ov8w.vercel.app/" frameborder="0"></iframe>
+      <section id="FAQ">
+    <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <details>
+        <summary>What is HTML?</summary>
+        <p>HTML stands for HyperText Markup Language. It is used to create web pages.</p>
+    </details>
+
+    <details>
+        <summary>Why do you want to learn web development?</summary>
+        <p>I want to learn web development to build websites and improve my technical skills.</p>
+    </details>
+
+    <details>
+        <summary>What programming languages do you know?</summary>
+        <p>I am learning C++, JavaScript, and HTML.</p>
+    </details>
+
+    <details>
+        <summary>What is your future goal?</summary>
+        <p>My future goal is to become a software engineer and create useful applications.</p>
+    </details>
+
+    <details>
+        <summary>What is your favorite subject?</summary>
+        <p>My favorite subject is Computer Science because I enjoy programming and problem-solving.</p>
+    </details>
+
+    </section>
+    <form action="Contact Form" id="Contact">
+      <label for="Full Name">Name</label>
+       <input type="text" placeholder="full Name">
+       <br>
+      <label for="email">email</label>
+      <input type="email" placeholder="example@gmail.com">
+      <br>
+      <label for="password">password</label>
+       <input type="password" placeholder="xxxxx">
+       <br>
+      <label for="age">enter your age</label>
+       <input type="number" id="age" name="age" min="1" mix="100" >
+       <br>
+       <label for="dob">Date of Birth</label>
+       <input type="date" name="dob" id="dob">
+      <label for="Gander">Gander </label>
+      <input type="radio" id="male" name="Gender" value="male">
+      <label for="male" >male</lable>
+      <input type="radio"  id="female" value="female" name="Gender">
+      <label for="female">female</label>
+      <br>
+      <label>Skills:</label><br>
+
+    <input type="checkbox" id="html" name="skills" value="HTML">
+    <label for="html">HTML</label><br>
+
+    <input type="checkbox" id="css" name="skills" value="CSS">
+    <label for="css">CSS</label><br>
+
+    <input type="checkbox" id="js" name="skills" value="JavaScript">
+    <label for="js">JavaScript</label><br><br>
+
+    <!-- Country (Dropdown) -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="">Select Country</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="USA">USA</option>
+    </select><br><br>
+
+    <!-- Message (Textarea) -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+
+    <!-- Reset Button -->
+    <input type="reset" value="Reset">
+    </form>
+    
+
+  </body>
+</html>
